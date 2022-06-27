@@ -1,0 +1,97 @@
+ * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html{
+            background: #1C1C1C;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+			margin-top: 6px;
+        }
+
+        .card{
+            position: relative;
+            width: 400px;
+            background-color: #242424;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow:0px 10px 10px 5px rgba(0,0,0,0.16);
+        }
+
+        .img-portada{
+            width:100%;
+            height: 40%;
+        }
+
+        .img-perfil{
+            width: 40%;
+            height: 150px;
+            border-radius: 50%;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 100px;
+            border: 5px solid #242424;
+        }
+
+        .card h1{
+            text-align: center;
+            margin: 85px auto 0;
+            color: white;
+            font-size: 18px;    
+            font-weight: 500;
+        }
+
+        .card h3{
+            text-align: center;
+            margin: 5px auto;
+            color: white;
+            font-weight: 300;
+        }
+
+        .technologies-list{
+            margin: 5px auto;
+            color: white;
+            font-weight: 300;
+            margin: 20px 0;
+            
+        }
+
+        .technologies-list ul{
+            list-style-type: square;
+        }
+
+        .button{
+            width: 115px;
+            height: 60px;
+            background: grey;
+            margin: 0 15px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition-duration: 0.4s;
+        }
+
+        .btn-linkedin:hover{
+            background-color: #0A63BC; 
+            color: white;
+        }
+
+        .btn-github:hover{
+            background-color: white; 
+            color: white;
+        }
+
+        .button img{
+            height:50px;
+        }
